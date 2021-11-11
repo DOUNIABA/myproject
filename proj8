@@ -1,31 +1,26 @@
-#include <unistd.h>
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
 #include <stdio.h>
 
-int main(int argc, char **argv){
-
-    char nom[20];
-    char prenom[20];
-    char age[20];
-    char sexe[20];
-    char tele[20];
-
-    printf("Votre Nom\n");
-    scanf("%s", nom);
-
-    printf("Votre Prenom\n");
-    scanf("%s", prenom);
-
-    printf("Votre Age\n");
-    scanf("%s", age);
-
-    printf("Votre Sexe\n");
-    scanf("%s", sexe);
-
-    printf("Votre Tele\n");
-    scanf("%s", tele);
+int main()
+{
 
 
-    printf("Nom Complet : %s %s, Age : %s, Sexe : %s, Tele : %s\n", nom, prenom, age, sexe, tele);
+ int a,b , c ,som;
+ float moy;
+ printf(" entrez a:  " );
+    scanf("%d",&a);
+printf(" entrez b:  " );
+scanf("%d",&b);
+printf(" entrez c:  " );
+scanf("%d",&c);
 
-    return 0;
+ som = a + b + c ;
+moy = som / 3;
+
+printf(" somme est  %d\n  Moyenne = %.1f", som ,moy);
+
+
 } 
