@@ -1,16 +1,14 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 int main()
 {
 
-float f ,c;
+float m ,mil;
 
-
-    printf(" température en Celsius : \n " );
-    scanf("%f",&f);
-    f = (c * 1.8) + 32;
-        printf(" temperature en Fahrenheit  est %.2f F : \n ",f );
+printf("  distance en Mile  : \n " );
+    scanf("%f",&mil);
+   m = mil* 1.609;
+        printf(" distance en Metre  est %.2f m : \n "km);
 
 
     return 0;
